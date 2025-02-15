@@ -63,7 +63,8 @@
      
     
     <div class="image-container">
-        <img id="randomImage" src="" alt="Home Photo" class="hero-image">
+        <div class="image-placeholder"></div>
+        <img id="randomImage" src="" alt="Home Photo" class="hero-image" loading="lazy" onload="this.style.opacity=1">
     </div>
         <script>
             var images = [
