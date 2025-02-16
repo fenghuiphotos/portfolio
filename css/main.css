@@ -142,32 +142,6 @@ footer {
     padding-bottom: 10px;
 }
 
-/* 画廊布局 */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem;
-}
-
-/* 画廊项 */
-.gallery-item {
-    overflow: hidden;
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* 画廊图片 */
-.gallery-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.gallery-image:hover {
-    transform: scale(1.05);
-}
-
 /* ----------------------------- CV 页面样式 --------------------------- */
 .cv-container {
     max-width: 800px;
