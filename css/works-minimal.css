@@ -1,0 +1,29 @@
+/* 画廊布局 */
+.gallery {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 画廊项 */
+.gallery-item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* 画廊图片 */
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    font-family: italic;
+}

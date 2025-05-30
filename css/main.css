@@ -1,0 +1,196 @@
+/* ---------------------------------- 基础重置------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局样式 */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ---------------------------------- 页面内容 ---------------------------------- */
+.content {
+    margin-right: 250px; /* 与导航栏宽度一致 */
+    padding: 2rem;
+}
+
+/* 导航栏容器 */
+.main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 2rem;
+    /*box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+/* ---------------------------------- 导航列表 ---------------------------------- */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+/* 导航项 */
+.nav-item {
+    margin-bottom: 1rem;
+}
+
+/* 导航链接 */
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* 父级菜单链接 */
+.nav-link.parent {
+    color: #555;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* 子菜单 */
+.submenu {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* 子菜单项 */
+.submenu-item {
+    margin-bottom: 0.5rem;
+}
+
+/* 子菜单链接 */
+.submenu-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* ----------------------------------- 首页容器 ---------------------------------- */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+/* 图片容器 */
+.image-container {
+    justify-content: center;
+    align-items: start;
+}
+
+/* 图片样式 */
+.hero-image {
+    max-height: calc(100vh - 200px);
+    object-fit: contain; /* 保持图片比例 */
+}
+
+/* 页脚 */
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 0.5em;
+    line-height: 100px;
+}
+
+/* ----------------------------------- 项目容器 ---------------------------------- */
+.works-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* 项目标题*/
+.works-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+/* 项目描述 */
+.works-description {
+    margin-bottom: 2rem;
+    padding: 0 5rem;
+    font-size: 1rem;
+    line-height: 2;
+    color: #333;
+}
+.works-description .description-foreword {
+    color: #888;
+    padding: 1rem 5rem;
+    font-style: italic;
+}
+.description-foreword .foreword-content {
+    text-align: center;
+}
+.description-foreword .foreword-author {
+    text-align: right;
+}
+.works-description .description-content p {
+    text-indent: 2em;
+    padding-bottom: 10px;
+}
+
+/* ----------------------------- CV 页面样式 --------------------------- */
+.cv-container {
+    max-width: 800px;
+    margin: 80px auto 40px; /* 为导航栏留出空间 */
+    padding: 0 20px;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cv-section {
+    margin-bottom: 20px;
+}
+
+.cv-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+.cv-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-section ul li {
+    margin-bottom: 10px;
+}
+
+.cv-section p {
+    font-size: 0.8em;
+    margin: 5px 0;
+    color: #666;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #f4f4f4;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #333;
+}
